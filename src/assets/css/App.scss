@@ -1,3 +1,15 @@
-.test {
-  color: red;
+@import "./var";
+@import "./header";
+@import "./content";
+@import "./footer";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.pageStyleContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
