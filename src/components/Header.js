@@ -10,7 +10,7 @@ function Header() {
               <li>
                 <div className="profile">
                   <div className="header-profile-pic"></div>
-                  KESHAV BHANDARI
+                  keshavbhandaridev@gmail.com
                 </div>
               </li>
             </div>

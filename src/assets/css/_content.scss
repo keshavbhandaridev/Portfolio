@@ -1,6 +1,43 @@
 .content {
-  margin-top: 40px;
   padding-top: 20px;
   background-color: $pallet1-gray;
   flex-grow: 1;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: row;
+  padding: 60px 0 0 40px;
+
+  .left-item {
+    display: flex;
+    flex-direction: column;
+    color: $pallet1-dark-blue;
+    justify-content: center;
+    gap: 5px;
+    width: 60%;
+
+    .intro {
+      font-size: 1.5rem;
+      color: $pallet1-dark-blue;
+      font-weight: 700;
+    }
+
+    .department {
+      font-size: 3.5rem;
+      color: transparent;
+      -webkit-text-stroke: 2px $pallet1-red;
+    }
+
+    .intro-content {
+      font-size: 1rem;
+      color: $pallet1-dark-blue;
+      font-weight: 500;
+    }
+  }
+
+  .right-item {
+    padding-right: 10px;
+    margin-left: 10%;
+  }
 }
