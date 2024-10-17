@@ -1,3 +1,5 @@
+import avatar from "../assets/images/avatar.png";
+
 function Header() {
   return (
     <>
@@ -5,12 +7,18 @@ function Header() {
         <nav>
           <ul className="navbar-container">
             <div className="left-items">
-              <li>Photo</li>
+              <li>
+                <div className="profile">
+                  <div className="header-profile-pic"></div>
+                  KESHAV BHANDARI
+                </div>
+              </li>
             </div>
             <div className="right-items">
+              <li>Home</li>
               <li>About</li>
               <li>Skills</li>
-              <li>Project</li>
+              <li>Projects</li>
             </div>
           </ul>
         </nav>
